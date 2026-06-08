@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptGen</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--normalize css-->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <!--media queries-->
+    <link rel="stylesheet" href="assets/css/mediaQueries.css">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="assets/fontes/fontawesome-free-7.2.0-web/fontawesome-free-7.2.0-web/css/all.min.css">
+
+    <!--bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+
+
+    <header id="hero-main"> <!--hero-main-->
+        <nav class="navbar navbar-expand-lg " id="hero-main__nav"> <!--hero-main__nav-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="assets/imagens/teleprompter.png" alt="teleprompter"
+                        class="hero-main__nav-img">PromptGen</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ideias">Recursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ideias">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-link" href="#" type="button"
+                                onclick="window.location.href='geradorPrompts.html'">Começar agora</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav><!--hero-main__nav-->
+
+
+    </header><!--hero-main-->
+
+    <main>
+
+        <div id="hero-banner" class="container"> <!--hero-banner-->
+
+            <p class="heroBannerText">
+                Organize,crie e reutilize.
+
+            </p>
+
+            <h1 class="title">
+                Gerador de <span class="title__span" lang="es">Prompts</span>
+            </h1>
+
+            <p class="heroBanner__textResumo">
+                Crie, salve e organize seus prompts favoritos para usar com IA sempre
+                que precisar. Mais produtividade, criatividade e praticidade no seu dia a dia.
+            </p>
+
+            <div class="hero-banner__buttons"> <!--hero-banner__buttons-->
+
+                <button type="button" id="comecarAgora" onclick="window.location.href='geradorPrompts.html'">Começar
+                    Agora</button>
+                <button type="button" id="verFuncionalidades" onclick="window.location.href='geradorPrompts.html'">Ver
+                    Funcionalidades</button>
+
+            </div><!--hero-banner__buttons-->
+
+
+            <img src="assets/imagens/imagemPrincipal-removebg-preview.png" alt="imagem principal"
+                class="img-fluid imagemPrincipal">
+
+        </div><!--hero-banner-->
+
+
+        <div class="ideias__container"> <!--ideias__container-->
+
+            <section id="ideias" class="container"> <!--ideias-->
+
+                <h2 class="ideias__subtitle">
+                    Tudo que você precisa para potencializar <span class="ideias_span">suas ideias</span>
+                </h2>
+
+                <div class="ideias__content"> <!--ideias__content-->
+
+                    <article class="ideias__item">
+                        <i class="fa-regular fa-bookmark"></i>
+
+                        <h3 class="ideias-item__subtitle">Salve e organize</h3>
+
+                        <p>
+                            Guarde seus prompts preferidos e encontre rapidamente
+                            quando precisar.
+
+                        </p>
+
+
+                    </article>
+
+                    <article class="ideias__item">
+
+                        <i class="fa-solid fa-bolt"></i>
+                        <h3 class="ideias-item__subtitle">Mais produtividade</h3>
+
+                        <p>
+                            Tenha uma biblioteca de prompts prontos para usar e ganhe tempo.
+                        </p>
+                    </article>
+
+                    <article class="ideias__item">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <h3 class="ideias-item__subtitle">Personalize e reutilize</h3>
+
+                        <p>
+                            Edite,copie e adapte seus prompts para diferentes situações.
+                        </p>
+
+                    </article>
+
+                </div><!--ideias__content-->
+
+            </section><!--ideias-->
+
+        </div><!--ideias__container-->
+
+
+        <div class="containerTransformarIdeias"> <!--containerTransformarIdeias-->
+
+            <section id="transformarIdeias"> <!--transformarIdeias-->
+
+                <h4 class="transformarIdeias_subtitle">
+
+                    Pronto para transformar suas ideias?
+                </h4>
+
+                <p>
+                    Comece agora a criar e salvar prompts incriveis.
+                </p>
+
+                <button id="acessarOgerador" onclick="window.location.href='geradorPrompts.html'">
+                    Acessar o Gerador
+                </button>
+
+
+            </section><!--transformarIdeias-->
+
+
+        </div><!--containerTransformarIdeias-->
+
+
+    </main>
+
+
+    <div class="containerFooter"> <!--containerFooter-->
+        <footer class="container" id="footer">
+
+            <div class="footer__text">
+
+                <p>&copy; PromptGen. Todos os direitos reservados.</p>
+
+            </div>
+
+            <div class="footer__links">
+
+
+                <a href="https://github.com/sousa44"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/renata_sousw/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/renata-sousa-/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+        </footer>
+
+    </div><!--containerFooter-->
+
+
+
+
+    <!--scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>

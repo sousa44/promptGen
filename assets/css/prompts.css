@@ -1,0 +1,64 @@
+* {
+    color: #ffff;
+}
+
+/*prompts */
+
+
+#prompts {
+    display: flex;
+    justify-content: space-around;
+    padding-top: var(--padding-top);
+    padding-bottom: 4rem;
+
+}
+
+#prompts article {
+    background: var(--bg-main-secondary);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid #ffffff64;
+}
+
+.prompts_subtitle {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 5px;
+
+    i {
+        color: var(--color-main);
+    }
+}
+
+.produtoForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#salvarPrompt {
+    background: var(--btn-bgMain);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: var(--transition);
+
+    &:hover {
+        background: #7B68EE;
+    }
+}
+
+#tituloPrompt, #promptText{
+    background-color: transparent;
+    color:#fff;
+
+}
+
+
+
+/*customFooter */
+
+.customFooter{
+  height: 50vh;
+}

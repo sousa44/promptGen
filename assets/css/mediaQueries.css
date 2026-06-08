@@ -1,0 +1,97 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+
+     .heroBanner__textResumo {
+         font-size: 19px;
+
+     }
+
+     .title {
+         font-size: 40px;
+     }
+
+     .hero-banner__buttons {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .ideias__content {
+         flex-direction: column;
+         align-items: center;
+         gap: 20px;
+     }
+
+     #footer {
+         flex-direction: column;
+         gap: 20px;
+
+     }
+
+     #prompts {
+         flex-direction: column;
+         gap: 20px;
+         align-items: center;
+     }
+
+     #prompts article {
+         width: 100%;
+     }
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) {
+
+     .heroBanner__textResumo {
+         font-size: 19px;
+
+     }
+
+     .title {
+         font-size: 40px;
+     }
+
+     .hero-banner__buttons {
+         flex-direction: column;
+         align-items: center;
+     }
+
+
+     .ideias__content {
+         flex-direction: column;
+         align-items: center;
+         gap: 20px;
+     }
+
+
+     #footer {
+         flex-direction: column;
+         gap: 20px;
+
+     }
+
+     #prompts {
+         flex-direction: column;
+         gap: 20px;
+         align-items: center;
+     }
+
+     #prompts article {
+         width: 100%;
+     }
+
+ }
+
+ /* Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) {
+     #prompts {
+         flex-direction: column;
+         gap: 20px;
+         align-items: center;
+     }
+ }
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199.98px) {}
+
+ /* X-Large devices (large desktops, less than 1400px) */
+ @media (max-width: 1399.98px) {}
